@@ -17,6 +17,7 @@ export function Footer({ onNavigate }: FooterProps) {
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm text-kraft-light">
+            <a href="https://ruralopstools.com" className="hover:text-board transition-colors text-rust font-medium">All tools ↗</a>
             <button onClick={() => onNavigate('about')} className="hover:text-board transition-colors">About</button>
             <button onClick={() => onNavigate('privacy')} className="hover:text-board transition-colors">Privacy Policy</button>
             <button onClick={() => onNavigate('legal')} className="hover:text-board transition-colors">Legal</button>

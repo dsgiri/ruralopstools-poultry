@@ -64,6 +64,14 @@ export default function App() {
       <main className="flex-grow">
         {renderView()}
       </main>
+
+      {/* AdSense Responsive Slot Placeholder */}
+      <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-4">
+        <div className="w-full h-[90px] bg-kraft-light border border-line flex flex-col items-center justify-center text-ink-soft opacity-60">
+          <span className="text-xs uppercase tracking-widest font-bold mb-1">Advertisement</span>
+          <span className="text-sm">Responsive Ad Unit Placeholder</span>
+        </div>
+      </div>
       
       <Footer onNavigate={setCurrentView} />
       <CookieBanner onNavigate={setCurrentView} />

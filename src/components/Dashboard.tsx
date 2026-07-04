@@ -35,7 +35,7 @@ export function Dashboard({ onNavigate }: DashboardProps) {
   const activeWatchesPreview = activeWatches.slice(0, 5);
 
   return (
-    <div className="max-w-5xl mx-auto py-8 px-4 sm:px-6 lg:px-8 space-y-8">
+    <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 space-y-8">
       
       {/* Hero Header */}
       <div className="bg-board text-kraft p-6 sm:p-8 rounded-sm shadow-sm border-l-8 border-board-dark flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
